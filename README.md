@@ -1,9 +1,9 @@
-# 🌐 HTML Practice Projects
+# HTML Practice Projects
 
 ## Projects
 
-- 🍕 Domino's Web Clone
-- 💼 Job Application Form
+-  Domino's Web Clone
+-  Job Application Form
 
 ## Domino's Web Clone Features
 
