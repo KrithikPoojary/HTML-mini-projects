@@ -39,23 +39,21 @@
 
 ## What I Learned
 
-- Semantic HTML
-- HTML Forms
-- Input Elements
+- HTML Document Structure
+- Semantic HTML Elements
+- Forms
+- Input Types
 - Labels
 - Textarea
+- Buttons
 - File Upload
-- Form Validation (`required`)
-- Navigation Structure
-- Page Layout
-- CSS Selectors
-- Flexbox
-- CSS Grid (Basics)
-- Responsive Design Concepts
-- JavaScript DOM Basics
-- Event Handling
-- Debugging HTML & CSS
-- Organizing Project Files
+- Date & Time Input
+- Placeholder Attribute
+- Required Validation
+- Headings
+- Paragraphs
+- Lists
+- Basic Page Organization
 
 ## Project Structure
 
