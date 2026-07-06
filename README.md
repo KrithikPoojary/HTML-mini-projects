@@ -1,48 +1,100 @@
-# Domino's Web Clone (domino-web)
--A front-end clone of a Domino's Pizza landing page, built as part of my journey learning web development.
+# 🌐 HTML Practice Projects
 
-## About This Project (domino-web)
-This project is inspired by Domino's Pizza's online ordering page. I built the **HTML structure** myself as part of learning HTML fundamentals — semantic layout, navigation, sections, and content structuring.
+## Projects
 
-Since I'm still learning **CSS** and **JavaScript**, I used AI assistance to help style the page and add basic interactivity, while I focused on understanding and structuring the markup. This repo represents a real, honest learning process — not a finished professional product.
+- 🍕 Domino's Web Clone
+- 💼 Job Application Form
 
-## What I Learned / Am Learning
+## Domino's Web Clone Features
 
-- Structuring a webpage with semantic HTML (`header`, `main`, `footer`, `nav`-style lists)
-- How CSS selectors target elements (including nested and combinator selectors)
-- Flexbox and CSS Grid basics for layout (via studying the generated CSS)
-- How JavaScript can respond to scroll and click events
-- Debugging layout issues (e.g. conflicting CSS rules overriding each other)
+- Semantic HTML Structure
+- Navigation Bar
+- Hero Section
+- Multiple Content Sections
+- Responsive Layout
+- Modern UI Design
+- Basic JavaScript Interactions
 
-## Tech Stack
+## Job Application Form Features
 
-- **HTML5** — page structure (written by me)
-- **CSS3** — styling, layout, responsiveness (AI-assisted)
-- **JavaScript (Vanilla)** — small interactive behaviors (AI-assisted)
+- First & Last Name
+- Email Address
+- Phone Number
+- Qualification Field
+- Date of Birth Picker
+- Interview Date Selection
+- Interview Time Selection
+- Cover Letter
+- Resume Upload
+- Additional Document Upload
+- Confirmation Checkbox
+- Submit Button
+- HTML Form Validation (`required`)
+
+## Technologies
+
+- HTML5 (Written by Me)
+- CSS3 (AI-assisted)
+- JavaScript (AI-assisted)
+
+## What I Learned
+
+- Semantic HTML
+- HTML Forms
+- Input Elements
+- Labels
+- Textarea
+- File Upload
+- Form Validation (`required`)
+- Navigation Structure
+- Page Layout
+- CSS Selectors
+- Flexbox
+- CSS Grid (Basics)
+- Responsive Design Concepts
+- JavaScript DOM Basics
+- Event Handling
+- Debugging HTML & CSS
+- Organizing Project Files
 
 ## Project Structure
 
-```
-domino-web/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── img/
-│   └── (logo, background, and icon images)
+```text
+HTML-Practice/
+├── Domino-Web/
+│   ├── index.html
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+├── Job-Application/
+│   ├── index.html
+│   ├── css/
+│   └── js/
+│
 └── README.md
 ```
 
+## About
 
-## Disclaimer
+This repository contains beginner-friendly HTML projects that I built while learning web development.
 
-This is a **non-commercial, educational clone** created for practicing front-end web development. It is not affiliated with, endorsed by, or connected to Domino's Pizza in any way. All Domino's branding, trademarks, and imagery belong to their respective owners.
+I write the complete **HTML structure** myself. Since I'm currently learning **CSS** and **JavaScript**, I use AI assistance for styling and basic functionality while focusing on understanding the code and improving my frontend development skills.
 
-## Next Steps
+## Future Improvements
 
-- [ ] Learn CSS Flexbox and Grid properly and rewrite the styling myself
-- [ ] Learn JavaScript fundamentals (DOM manipulation, events)
-- [ ] Make the page fully responsive without AI assistance
-- [ ] Add more sections/pages as my skills grow
+- Learn CSS and redesign both projects myself
+- Learn JavaScript and remove AI-assisted code
+- Improve responsiveness
+- Add more HTML practice projects
+- Connect forms with a backend
+- Improve UI/UX
+- Build complete full-stack versions in the future
 
+## Note
+
+This repository represents my learning journey.
+
+- ✅ HTML is written by me.
+- 🤖 CSS and JavaScript are AI-assisted because I am currently learning them.
+- 🚀 My goal is to replace the AI-assisted code with my own code as I continue learning.
