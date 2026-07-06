@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Job Application Form</h1>
+    <h3>Please Fill Out the Form Below to Submit Your Job Application!</h3>
+    <hr>
+
+
+    <form action="/none">
+
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter first name" required>
+            <input id="name" type="text" placeholder="Enter last name" required>
+        </div>
+
+        <div>
+            <span>
+                <label for="email">E-mail</label>
+                <label for="phn">Phone number</label>
+                <!--The phonenumber should be placed up before input Mobile number block-->
+                <br>
+                <input type="email" id="email" placeholder="eg--user@gmail.com" required>
+                <input id="phn" type="tel" maxlength="10" placeholder="Enter Mobile nuber" required>
+            </span>
+        </div>
+        <div>
+            <span>
+                <label for="education">Qualification level</label>
+                <label for="dob">Date of birth</label>
+                <br>
+                <input id="education" type="text" placeholder="Enter Qualification" required>
+                <input type="date" name="dob" id="dob" required>
+            </span>
+        </div>
+        <div>
+            <span>
+                <small>Select date for interview</small> <small>Select the timing for interview</small>
+                <br>
+                <label for="interview">date</label>
+                <label for="time">Select time</label>
+                <br>
+                <input type="date" name="interview" id="interview" required>
+                <input type="time" name="time" id="time" required>
+                <br>
+            </span>
+
+        </div>
+        <div>
+            <span>
+                <h5>Cover Letter</h5>
+                <label for="type"></label>
+                <textarea name="type" id="type" rows="8" placeholder="Tap" cols="45"></textarea>
+            </span>
+        </div>
+        <div>
+
+            <h5>Upload resume</h5>
+            <label for="resume"></label>
+            <input type="file" name="resume" id="resume" required>
+
+        </div>
+        <div>
+            <h5>Upload any other documents</h5>
+            <label for="doc"></label>
+            <input type="file" name="doc" id="doc">
+            <p><small>You can share certificates, diplomas etc.</small></p>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">I am surely applying for this job</label>
+        </div>
+        <!-- at bottom senter -->
+        <div>
+            <button type="submit">Apply</button>
+        </div>
+
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
